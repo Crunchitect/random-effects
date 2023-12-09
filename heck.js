@@ -12,7 +12,7 @@ var timeline = anime.timeline({
 });
 
 timeline.add({
-    targets: "div > svg > path",
+    targets: "path",
     strokeDashoffset: [anime.setDashoffset, 0],
 }).add({
     targets: "div > svg > line",
